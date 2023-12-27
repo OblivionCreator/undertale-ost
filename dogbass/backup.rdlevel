@@ -1,0 +1,120 @@
+﻿{
+	"settings":
+	{
+		"version": 56, 
+		"artist": "dogbass", 
+		"song": "dogbass", 
+		"specialArtistType": "None", 
+		"artistPermission": "", 
+		"artistLinks": "www.dogbass.com", 
+		"author": "dogbass", 
+		"difficulty": "Medium", 
+		"seizureWarning": false, 
+		"previewImage": "", 
+		"syringeIcon": "", 
+		"previewSong": "", 
+		"previewSongStartTime": 0, 
+		"previewSongDuration": 10, 
+		"songNameHue": 0.17, 
+		"songLabelGrayscale": false, 
+		"description": "dogbass", 
+		"tags": "dogbass", 
+		"separate2PLevelFilename": "", 
+		"canBePlayedOn": "OnePlayerOnly", 
+		"firstBeatBehavior": "RunNormally", 
+		"multiplayerAppearance": "HorizontalStrips", 
+		"levelVolume": 1, 
+		"rankMaxMistakes": [20, 15, 10, 5], 
+
+		"rankDescription":
+		[
+			"Better call 911, now!",
+			"Ugh, you can do better",
+			"Not bad I guess...",
+			"We make a good team!",
+			"You are really good!",
+			"Wow! That's awesome!!"
+		]
+	},
+	"rows":
+	[
+		{ "character": "Samurai", "rowType": "Classic", "row": 0, "rooms": [0], "player": "P1", "pulseSound": "Stick", "pulseSoundVolume": 100, "pulseSoundPitch": 100, "pulseSoundPan": 0, "pulseSoundOffset": 0 },
+		{ "character": "Samurai", "rowType": "Classic", "row": 1, "rooms": [0], "player": "P1", "pulseSound": "Stick", "pulseSoundVolume": 100, "pulseSoundPitch": 80, "pulseSoundPan": 0, "pulseSoundOffset": 0 },
+	],
+	"decorations":
+	[
+	],
+	"events":
+	[
+		{ "bar": 1, "beat": 1, "y": 0, "type": "SetBeatsPerMinute", "beatsPerMinute": 220 },
+		{ "bar": 1, "beat": 1, "y": 0, "type": "SetBackgroundColor", "rooms": [0], "ease": "Linear", "contentMode": "ScaleToFill", "filter": "NearestNeighbor", "color": "FFFFFFFF", "interval": 1, "backgroundType": "Image", "duration": 0, "fps": 130, "image": ["dogbass room.png"], "scrollX": 0, "scrollY": 0, "tilingType": "Scroll" },
+		{ "bar": 1, "beat": 1, "y": 1, "type": "TintRows", "rooms": [0], "row": -1, "ease": "Linear", "border": "Outline", "borderColor": "000000FF", "opacity": 100, "tint": false, "duration": 0, "effect": "None" },
+		{ "bar": 1, "beat": 1, "y": 2, "type": "FloatingText", "rooms": [0], "fadeOutRate": 8, "narrate": true, "color": "FFFFFFFF", "angle": 0, "text": "If you're a smell...", "size": 16, "times": "", "outlineColor": "000000FF", "id": 0, "textPosition": [11.36364, 75.75758], "anchor": "MiddleLeft", "narrationCategory": "Notification", "mode": "HideAbruptly", "showChildren": true },
+		{ "bar": 1, "beat": 1, "y": 3, "type": "FloatingText", "rooms": [0], "fadeOutRate": 8, "narrate": true, "color": "FFFFFFFF", "angle": 0, "text": "*", "size": 16, "times": "", "outlineColor": "000000FF", "id": 2, "textPosition": [5.681818, 74.74747], "anchor": "MiddleLeft", "narrationCategory": "Notification", "mode": "HideAbruptly", "showChildren": true },
+		{ "bar": 1, "beat": 5, "y": 0, "type": "SetRowXs", "row": 0, "pattern": "---x-x", "syncoBeat": -1, "syncoSwing": 0 },
+		{ "bar": 1, "beat": 5, "y": 2, "type": "FloatingText", "rooms": [0], "fadeOutRate": 4, "narrate": true, "color": "FFFFFFFF", "angle": 0, "text": "(... identify yoursmellf!)", "size": 16, "times": "", "outlineColor": "000000FF", "id": 1, "textPosition": [11.36364, 25.25253], "anchor": "MiddleLeft", "narrationCategory": "Notification", "mode": "HideAbruptly", "showChildren": true },
+		{ "bar": 1, "beat": 5, "y": 3, "type": "FloatingText", "rooms": [0], "fadeOutRate": 4, "narrate": true, "color": "FFFFFFFF", "angle": 0, "text": "*", "size": 16, "times": "", "outlineColor": "000000FF", "id": 3, "textPosition": [5.681818, 24.24242], "anchor": "MiddleLeft", "narrationCategory": "Notification", "mode": "HideAbruptly", "showChildren": true },
+		{ "bar": 2, "beat": 1, "y": 0, "type": "PlaySong", "song": {"filename": "dogbass.ogg", "volume": 100, "pitch": 100, "pan": 0, "offset": 0}, "loop": false, "bpm": 220 },
+		{ "bar": 2, "beat": 1, "y": 1, "type": "SetRowXs", "row": 1, "pattern": "----x-", "syncoBeat": -1, "syncoSwing": 0 },
+		{ "bar": 2, "beat": 1, "y": 0, "type": "AddClassicBeat", "row": 0, "tick": 0.5, "swing": 0.3333333, "hold": 0 },
+		{ "bar": 2, "beat": 1, "y": 2, "type": "MoveRow", "row": 0, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 75], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 2, "beat": 1, "y": 0, "type": "PulseCamera", "rooms": [0], "strength": 0, "count": 16, "frequency": 1 },
+		{ "bar": 2, "beat": 2, "y": 3, "type": "MoveRow", "row": 1, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 25], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 2, "beat": 3, "y": 2, "type": "MoveRow", "row": 0, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 60], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 2, "beat": 4, "y": 3, "type": "MoveRow", "row": 1, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 40], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 2, "beat": 5, "y": 1, "type": "AddClassicBeat", "row": 1, "tick": 0.5, "swing": 0.3333333, "hold": 0 },
+		{ "bar": 2, "beat": 5, "y": 2, "type": "MoveRow", "row": 0, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 75], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 2, "beat": 6, "y": 3, "type": "MoveRow", "row": 1, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 25], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 2, "beat": 7, "y": 2, "type": "MoveRow", "row": 0, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 60], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 2, "beat": 8, "y": 3, "type": "MoveRow", "row": 1, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 40], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 3, "beat": 1, "y": 0, "type": "AddClassicBeat", "row": 0, "tick": 0.5, "swing": 0.3333333, "hold": 0 },
+		{ "bar": 3, "beat": 1, "y": 2, "type": "MoveRow", "row": 0, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 75], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 3, "beat": 2, "y": 3, "type": "MoveRow", "row": 1, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 25], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 3, "beat": 3, "y": 2, "type": "MoveRow", "row": 0, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 60], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 3, "beat": 4, "y": 3, "type": "MoveRow", "row": 1, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 40], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 3, "beat": 5, "y": 1, "type": "AddClassicBeat", "row": 1, "tick": 0.5, "swing": 0.3333333, "hold": 0 },
+		{ "bar": 3, "beat": 5, "y": 2, "type": "MoveRow", "row": 0, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 75], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 3, "beat": 6, "y": 3, "type": "MoveRow", "row": 1, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 25], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 3, "beat": 7, "y": 2, "type": "MoveRow", "row": 0, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 60], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 3, "beat": 8, "y": 3, "type": "MoveRow", "row": 1, "target": "WholeRow", "customPosition": true, "rowPosition": [10, 40], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 4, "beat": 1, "y": 0, "type": "MoveCamera", "rooms": [0], "cameraPosition": [50, 50], "zoom": 120, "duration": 1, "ease": "OutExpo" },
+		{ "bar": 4, "beat": 2, "y": 0, "type": "MoveCamera", "rooms": [0], "cameraPosition": [50, 50], "zoom": 100, "duration": 5, "ease": "InExpo" },
+		{ "bar": 5, "beat": 1, "y": 0, "type": "Comment", "tab": "Actions", "show": false, "text": "Level End", "color": "F2E644" },
+		{ "bar": 5, "beat": 1, "y": 1, "type": "SetBackgroundColor", "rooms": [0], "ease": "Linear", "contentMode": "ScaleToFill", "filter": "NearestNeighbor", "color": "FFFFFF00", "interval": 1, "backgroundType": "Color", "duration": 0, "image": [], "scrollX": 0, "scrollY": 0, "tilingType": "Scroll" },
+		{ "bar": 5, "beat": 1, "y": 2, "type": "SetBackgroundColor", "rooms": [0], "ease": "Linear", "contentMode": "ScaleToFill", "filter": "NearestNeighbor", "color": "FFFFFF00", "interval": 1, "backgroundType": "Image", "duration": 0, "fps": 130, "image": [""], "scrollX": 0, "scrollY": 0, "tilingType": "Scroll" },
+		{ "bar": 5, "beat": 1, "y": 3, "type": "MoveRow", "row": 0, "target": "WholeRow", "customPosition": false, "rowPosition": [10, 60], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 5, "beat": 1, "y": 3, "type": "MoveRow", "row": 1, "target": "WholeRow", "customPosition": false, "rowPosition": [10, 60], "pivot": 0, "duration": 1, "ease": "Linear" },
+		{ "bar": 5, "beat": 1, "y": 2, "type": "HideRow", "row": 0, "transition": "Instant", "show": "Hidden" },
+		{ "bar": 5, "beat": 1, "y": 2, "type": "HideRow", "row": 1, "transition": "Instant", "show": "Hidden" },
+	],
+	"conditionals":
+	[
+	],
+	"bookmarks":
+	[
+	],
+	"colorPalette":
+	[
+		"000000ff",
+		"ffffffff",
+		"7f7f7fff",
+		"c3c3c3ff",
+		"880015ff",
+		"b97a57ff",
+		"ff0000ff",
+		"ffaec9ff",
+		"ff7f27ff",
+		"ffc90eff",
+		"fff200ff",
+		"efe4b0ff",
+		"22b14cff",
+		"b5e61dff",
+		"00a2e8ff",
+		"99d9eaff",
+		"3f48ccff",
+		"7092beff",
+		"a349a4ff",
+		"c8bfe7ff",
+		"00000000"
+	]
+}
